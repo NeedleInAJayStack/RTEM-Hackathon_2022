@@ -96,11 +96,11 @@ def clusterAnalyze(input: pandas.DataFrame):
   - clusterHistory: Dataframe. This is the input history with the cluster values applied as a column named "cluster"
   - kpiHistory: DataFrame. This is a historical representation of weekly KPIs with the following columns:
      - date: The start date of the week over which the KPIs were computed
-     - lowUsage: The low-use cluster value
-     - highUsage: The high-use cluster value
-     - turndown: The high-use cluster value divided by the low use. 
+     - low_usage: The low-use cluster value
+     - high_usage: The high-use cluster value
+     - unoccupied_turndown_factor: The high-use cluster value divided by the low use. 
         This indicates how effective the unoccupied energy reduction strategies are. Scaled from 0 to 1.
-     - highUsageTimeFactor: The duration that the building was in a high-use state. 
+     - occupied_duration_factor: The duration that the building was in a high-use state. 
         This measures how often unoccupied energy reduction strategies are used. Scaled from 0 to 1.
   """
 
@@ -120,16 +120,16 @@ def clusterAnalyze(input: pandas.DataFrame):
     clusters = kmeans.fit_predict(groupHistory)
     centers = kmeans.cluster_centers_
 
-    # Compute turndown
+    # Compute unoccupied_turndown_factor
     maxCenter = max(centers)[0]
     minCenter = min(centers)[0]
 
     low = minCenter
     high = maxCenter
     if maxCenter != 0:
-      turndown = minCenter / maxCenter
+      unoccupied_turndown_factor = minCenter / maxCenter
     else:
-      turndown = float("nan")
+      unoccupied_turndown_factor = float("nan")
 
     # Create KPI history
     kmeanValues = [centers[x][0] for x in clusters]
@@ -147,15 +147,15 @@ def clusterAnalyze(input: pandas.DataFrame):
       else:
         lowDuration = lowDuration + timeDelta
       prevTs = ts
-    highUsageTimeFactor = highDuration.total_seconds() / (highDuration.total_seconds() + lowDuration.total_seconds())
+    occupied_duration_factor = highDuration.total_seconds() / (highDuration.total_seconds() + lowDuration.total_seconds())
 
     # Create KPIs record
     groupKpi = {
       "date": date,
-      "lowUsage": low,
-      "highUsage": high,
-      "turndown": turndown,
-      "highUsageTimeFactor": highUsageTimeFactor
+      "low_usage": low,
+      "high_usage": high,
+      "unoccupied_turndown_factor": unoccupied_turndown_factor,
+      "occupied_duration_factor": occupied_duration_factor
     }
     groupKpis.append(groupKpi)
     groupHistories.append(groupHistory)

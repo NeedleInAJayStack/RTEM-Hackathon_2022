@@ -33,7 +33,7 @@ clusterHistory = clusterResult.clusterHistory
 # fig.set_xlabel('Time',fontdict={'fontsize':15})
 # plt.show()
 
-# fig = kpiHistory["highUsageTimeFactor"].plot(figsize=(15,8), fontsize = 12)
+# fig = kpiHistory["occupied_duration_factor"].plot(figsize=(15,8), fontsize = 12)
 # fig.set_ylabel('Value',fontdict={'fontsize':15})
 # fig.set_xlabel('Time',fontdict={'fontsize':15})
 # plt.show()

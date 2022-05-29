@@ -28,12 +28,12 @@ def processBuilding(buildingId: int):
   kpiValues = kpiHistory.mean()
   return {
     "building_id": buildingId,
-    "startDate": kpiHistory.index.min(),
-    "endDate": kpiHistory.index.max(),
-    "lowUsage": kpiValues["lowUsage"],
-    "highUsage": kpiValues["highUsage"],
-    "turndown": kpiValues["turndown"],
-    "highUsageTimeFactor": kpiValues["highUsageTimeFactor"],
+    "start_date": kpiHistory.index.min(),
+    "end_date": kpiHistory.index.max(),
+    "low_cluster_avg": kpiValues["low_usage"],
+    "high_cluster_avg": kpiValues["high_usage"],
+    "unoccupied_turndown_factor_avg": kpiValues["unoccupied_turndown_factor"],
+    "occupied_duration_factor_avg": kpiValues["occupied_duration_factor"],
   }
 
 kpiRows = []
