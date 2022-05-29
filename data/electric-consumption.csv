@@ -1,0 +1,94 @@
+id,equipment_name,name,description,units,value,type,last_updated,first_updated,building_id,square_footage
+191196,elecMeter-443111257002006,443111257002006 (kWh),21 West End Avenue_443111257002006 (kWh),kW,75.6,Electric Consumption,2019-12-20 05:15:00-06:00,2019-06-19 21:00:00-07:00,100,153750.0
+358161,elecMeter-6132839,6132839 (kW),,,0.0,Electric Consumption,2020-10-28 09:30:00-06:00,2020-06-19 21:15:00-07:00,100,153750.0
+193812,Site-Sensor,,Main Power,kWh,17818.0,Electric Consumption,2019-10-02 07:00:00-06:00,2017-11-20 12:00:00-07:00,105,56000.0
+193895,Site-Sensor,,Whole Building (AcquiLite),kWh,11.0,Electric Consumption,2020-05-04 22:00:01-06:00,2019-10-31 21:00:00-07:00,108,
+194172,meter-electric,,Selfhelp K1 Meters Exhaust Electrical Meter,kWh,61290.0,Electric Consumption,2018-08-31 22:15:00-06:00,2018-08-31 21:00:00-07:00,110,789079.0
+194195,elecMeterLoad-site,Total Base Building Consumption_value,Total Base Building Consumption_value,,4665.15,Electric Consumption,2019-03-12 21:55:00-06:00,2017-09-11 21:00:00-07:00,112,210000.0
+197088,elecMeter-site,CurrentDemand_Building_value,CurrentDemand_Building_value,kWh,258.87,Electric Consumption,2018-05-31 21:45:00-06:00,2017-11-30 22:00:00-07:00,121,236067.0
+197125,Site-Sensor,,Main Power,kWh,12378.0,Electric Consumption,2019-10-02 07:00:00-06:00,2017-11-28 10:00:00-07:00,122,56000.0
+197192,elecMeter-8479295,8479295 (kWh),8479295 (kWh),kWh,19.68,Electric Consumption,2018-09-15 22:00:00-06:00,2017-09-14 21:15:00-07:00,123,330000.0
+197193,elecMeter-8479296,8479296 (kWh),8479296 (kWh),kWh,15.36,Electric Consumption,2018-09-15 22:00:00-06:00,2017-09-14 21:15:00-07:00,123,330000.0
+197194,elecMeter-8939311,8939311 (kWh),8939311 (kWh),kWh,33.36,Electric Consumption,2018-09-15 22:00:00-06:00,2017-09-14 21:15:00-07:00,123,330000.0
+197200,meter-site,,Whole Building (AcquiLite)_kWh,kWh,0.1,Electric Consumption,2020-01-09 23:00:00-06:00,2019-01-09 22:00:00-07:00,125,8500.0
+197310,meter-electric,Main Electric Meter kWh,Main Electric Meter kWh,kWh,1667704.0,Electric Consumption,2019-01-05 20:00:00-06:00,2018-06-30 21:00:00-07:00,127,789079.0
+197557,meter-site,,Main Power,kWh,0.36,Electric Consumption,2019-08-22 20:00:00-06:00,2018-08-22 10:00:00-07:00,132,198057.0
+197842,meter-site,,446225112500033 (kWh),kWh,9.72,Electric Consumption,2019-12-27 11:00:00-06:00,2018-12-31 22:00:00-07:00,135,200000.0
+197985,meter-site,,meter_kwh,kWh,25.32,Electric Consumption,2019-12-10 22:45:00-06:00,2016-12-31 22:15:00-07:00,137,221704.0
+198114,meter-site,,Whole Building (AcquiLite)_kwh,kWh,0.8,Electric Consumption,2020-02-29 22:59:00-06:00,2019-04-30 21:00:00-07:00,139,9000.0
+198950,elecMeter1,,Meter Data Elec Meter Electric Meter 1,kWh,128.01,Electric Consumption,2019-12-31 22:45:00-06:00,2018-12-14 22:00:00-07:00,146,281755.0
+198951,elecMeter2,,Meter Data Elec Meter Electric Meter 2,kWh,204.01,Electric Consumption,2019-12-31 22:45:00-06:00,2018-12-14 22:00:00-07:00,146,281755.0
+199033,meter-site,,Main Power,kWh,0.29,Electric Consumption,2019-07-02 20:00:00-06:00,2018-07-03 08:00:00-07:00,147,198057.0
+199052,meter-electric,,Selfhelp 6469 Broadway Meters Electric Meter Dmarc,kWh,20865.09,Electric Consumption,2018-10-01 19:15:00-06:00,2018-09-30 21:00:00-07:00,148,789079.0
+199120,meter-site,,Main Power,kWh,2.86,Electric Consumption,2018-08-25 12:00:00-06:00,2018-08-22 07:00:00-07:00,151,198057.0
+199194,meter-site,,Main Power,kWh,0.0,Electric Consumption,2019-08-26 20:00:00-06:00,2018-08-27 13:00:00-07:00,155,144000.0
+199219,Site-Sensor,,Main Power,kWh,17286.0,Electric Consumption,2019-10-02 07:00:00-06:00,2017-12-05 15:00:00-07:00,157,56000.0
+199254,meter-site,,Whole Building (AcquiLite)_kWh,kWh,5.05,Electric Consumption,2020-02-29 23:00:01-06:00,2019-04-30 21:00:00-07:00,158,9000.0
+200594,Site-Sensor,,Main Power,kWh,12416.0,Electric Consumption,2019-10-02 07:00:00-06:00,2017-12-04 13:00:00-07:00,164,56000.0
+200632,meter-site,,Main Power,kWh,8.43,Electric Consumption,2019-09-19 20:00:00-06:00,2018-09-19 21:00:00-07:00,165,144000.0
+200654,meter-site,,Main Power,kWh,1.31,Electric Consumption,2019-07-02 20:00:00-06:00,2018-07-03 07:00:00-07:00,166,198057.0
+200672,meter-site,,Main Power,kWh,0.0,Electric Consumption,2019-10-11 20:00:00-06:00,2018-10-11 21:00:00-07:00,167,144000.0
+201005,meter-electric,,Selfhelp K4 Meters Electric Meter Dmarc,kWh,38700.0,Electric Consumption,2018-09-30 22:00:00-06:00,2018-08-31 21:00:00-07:00,170,789079.0
+201043,meter-site,,Main Power,kWh,0.16,Electric Consumption,2019-07-16 20:00:00-06:00,2018-07-16 14:00:00-07:00,172,198057.0
+201055,meter-site,,Main Power,kWh,3.71,Electric Consumption,2019-02-21 21:00:00-06:00,2018-08-22 10:00:00-07:00,173,198057.0
+201303,meter-site,,Main Power,kWh,10.35,Electric Consumption,2019-07-02 20:00:00-06:00,2018-07-03 08:00:00-07:00,175,198057.0
+201323,elecMeter-494061081200003,494061081200003 (kWh),494061081200003 (kWh),kWh,23.16,Electric Consumption,2019-12-27 11:00:00-06:00,2018-12-31 22:00:00-07:00,176,150000.0
+201326,meter-site,,Main Power,kWh,6.38,Electric Consumption,2019-09-19 20:00:00-06:00,2018-09-19 21:00:00-07:00,177,144000.0
+201363,Site-Sensor,,Main Power,kWh,12696.0,Electric Consumption,2019-10-02 07:00:00-06:00,2017-11-06 11:00:00-07:00,179,56000.0
+202720,meter-site,,Main Power,kWh,2.72,Electric Consumption,2019-07-16 20:00:00-06:00,2018-07-17 07:00:00-07:00,187,198057.0
+202744,meter-site,,Main Power,kWh,3.66,Electric Consumption,2019-09-05 20:00:00-06:00,2018-09-05 21:00:00-07:00,188,144000.0
+203559,meter-site,,Main Power,kWh,0.52,Electric Consumption,2019-07-02 20:00:00-06:00,2018-07-02 13:00:00-07:00,191,198057.0
+203621,meter-site,,kWh,kWh,858.0,Electric Consumption,2018-12-09 23:00:00-06:00,2016-12-31 22:15:00-07:00,194,1700000.0
+204541,meter-site,,Whole Building (AcquiLite)_kWh,kWh,0.35,Electric Consumption,2020-02-29 22:59:00-06:00,2019-04-30 21:00:00-07:00,205,8500.0
+204553,meter-electric,,Selfhelp K3 Meters Electric Meter Dmarc,kWh,113672.5,Electric Consumption,2018-12-31 23:00:00-06:00,2018-06-30 21:00:00-07:00,206,789079.0
+204658,meter-site,,Main Power,kWh,0.13,Electric Consumption,2019-08-01 20:00:00-06:00,2018-07-31 21:00:00-07:00,210,198057.0
+205078,elecMeter-site,Total Electric Consumption value,Total Electric Consumption_value,,8559.0,Electric Consumption,2021-06-10 21:50:00-06:00,2019-12-09 22:00:00-07:00,217,229154.0
+205155,meter-site,,Main Power,kWh,1.83,Electric Consumption,2019-07-15 20:00:00-06:00,2018-07-16 07:00:00-07:00,220,198057.0
+205627,meter-site,,Main Power,kWh,0.10,Electric Consumption,2019-07-03 20:00:00-06:00,2018-07-03 08:00:00-07:00,225,198057.0
+205654,meter-site,,Main Power,kWh,0.0,Electric Consumption,2019-09-19 20:00:00-06:00,2018-09-19 21:00:00-07:00,226,144000.0
+207779,meter-site,,Main Power,kWh,1.60,Electric Consumption,2019-09-08 20:00:00-06:00,2018-09-08 21:00:00-07:00,236,144000.0
+208337,meter494171206620025,,494171206620025 (kWh),kWh,19.44,Electric Consumption,2019-10-09 22:00:00-06:00,2019-04-08 21:15:00-07:00,248,127000.0
+208338,meter8508235,,8508235 (kWh),kWh,19.44,Electric Consumption,2019-10-09 22:00:00-06:00,2019-04-08 21:15:00-07:00,248,127000.0
+208353,meter471031119000011,471031119000011 (kWh),471031119000011 (kWh),kWh,16.41,Electric Consumption,2020-06-08 10:00:00-06:00,2018-12-31 22:00:00-07:00,249,120000.0
+208354,meter491721210110000-site,,491721210110000 (kWh),kWh,135.36,Electric Consumption,2019-08-25 22:00:00-06:00,2019-02-24 22:15:00-07:00,250,120721.0
+208465,meter-site,,Main Power,kWh,1.36,Electric Consumption,2019-08-22 20:00:00-06:00,2018-08-22 08:00:00-07:00,252,198057.0
+208485,meter-electric,,Selfhelp K6 Meters Electric Dmarc,kWh,59743.23,Electric Consumption,2019-01-15 22:45:00-06:00,2018-06-30 21:00:00-07:00,253,789079.0
+210646,meter-site,,Main Power,kWh,0.35,Electric Consumption,2019-09-07 20:00:00-06:00,2018-09-07 21:00:00-07:00,260,144000.0
+210766,meter-site,,Main Power,kWh,0.84,Electric Consumption,2019-11-19 21:00:00-06:00,2018-11-21 09:00:00-07:00,264,144000.0
+210781,Site-Sensor,,Whole Building (AcquiLite),kWh,11.0,Electric Consumption,2020-05-04 22:00:01-06:00,2019-09-23 21:00:00-07:00,265,
+211113,meter-site,,Main Power,kWh,6.38,Electric Consumption,2019-09-19 20:00:00-06:00,2018-09-19 21:00:00-07:00,274,144000.0
+211154,meterA,,Switchboard A Consumption_value,kWh,2516.0,Electric Consumption,2020-04-29 21:45:00-06:00,2019-10-28 21:00:00-07:00,275,522000.0
+211155,meterB,,Switchboard B Consumption_value,kWh,5972.0,Electric Consumption,2020-04-29 21:45:00-06:00,2019-10-28 21:00:00-07:00,275,522000.0
+211156,meterC,,Switchboard C Consumption_value,kWh,6014.0,Electric Consumption,2020-04-29 21:45:00-06:00,2019-10-28 21:00:00-07:00,275,522000.0
+211157,meterD,,Switchboard D Consumption_value,kWh,20038.0,Electric Consumption,2020-04-29 21:45:00-06:00,2019-10-28 21:00:00-07:00,275,522000.0
+212120,meter-site,,Main Power,kWh,1.00,Electric Consumption,2019-07-16 20:00:00-06:00,2018-07-16 10:00:00-07:00,277,198057.0
+212704,Site-Sensor,,Main Power,kWh,22723.0,Electric Consumption,2019-10-02 07:00:00-06:00,2017-12-19 14:00:00-07:00,282,56000.0
+212872,meter-site,,Main Power,kWh,1.75,Electric Consumption,2019-08-22 20:00:00-06:00,2018-08-22 07:00:00-07:00,285,198057.0
+215046,meter-site,,Main Power,kWh,0.0,Electric Consumption,2019-09-09 20:00:00-06:00,2018-09-09 21:00:00-07:00,294,144000.0
+215141,meter-site,,Main Power,kWh,1.82,Electric Consumption,2019-07-15 20:00:00-06:00,2018-07-16 07:00:00-07:00,297,198057.0
+216705,Site-Sensor,,Main Power,kWh,11204.0,Electric Consumption,2019-10-01 06:00:00-06:00,2017-12-18 11:00:00-07:00,307,56000.0
+217125,meter-site,,Main Power,kWh,2.9,Electric Consumption,2019-03-21 20:00:00-06:00,2017-03-22 09:00:00-07:00,316,144000.0
+217126,meter-site,,Main Power.1,kWh,2.88,Electric Consumption,2019-03-21 20:00:00-06:00,2017-03-22 09:00:00-07:00,316,144000.0
+217127,meter-site,,Main Power.2,kWh,2.58,Electric Consumption,2019-03-21 20:00:00-06:00,2017-03-22 09:00:00-07:00,316,144000.0
+219335,meter-site,,Main Power,kWh,4.53,Electric Consumption,2019-07-16 20:00:00-06:00,2018-07-16 09:00:00-07:00,322,198057.0
+220537,meter-site,,Main Power,kWh,0.49,Electric Consumption,2019-08-21 20:00:00-06:00,2018-08-22 08:00:00-07:00,327,198057.0
+220681,meter-433203206800010,,433203206800010 (kWh),kWh,27.24,Electric Consumption,2020-02-04 11:00:00-06:00,2019-08-24 21:15:00-07:00,332,120000.0
+220682,meter-8939324,,8939324 (kWh),kWh,25.56,Electric Consumption,2020-02-24 12:15:00-06:00,2019-08-24 21:15:00-07:00,332,120000.0
+221848,meter-site,,Main Power,kWh,1.82,Electric Consumption,2019-07-15 20:00:00-06:00,2018-07-16 07:00:00-07:00,350,198057.0
+221922,meter-site,,Main Power,kWh,1.70,Electric Consumption,2019-07-03 20:00:00-06:00,2018-07-03 08:00:00-07:00,353,198057.0
+227152,meter-site,,Main Power,kWh,0.77,Electric Consumption,2019-07-16 20:00:00-06:00,2018-07-16 10:00:00-07:00,372,198057.0
+386645,elecMeter-425119007710002,425119007710002 (kWh),,kWh,25.44,Electric Consumption,2020-06-01 12:15:00-06:00,2019-11-29 22:15:00-07:00,373,127577.0
+227890,Site-Sensor,,Main Power,kWh,22330.0,Electric Consumption,2019-10-02 07:00:00-06:00,2017-12-01 13:00:00-07:00,380,56000.0
+228645,meter-site,,Main,kWh,0.13,Electric Consumption,2019-12-03 21:00:00-06:00,2018-12-03 14:00:00-07:00,386,198057.0
+229786,meter-site,,Whole Building (AcquiLite)_kWh,kWh,0.8,Electric Consumption,2020-02-29 22:59:00-06:00,2019-04-30 21:00:00-07:00,390,8500.0
+230058,elecMeter-site,Main Meter_v0,Main Meter_v0,kWh,178.20,Electric Consumption,2020-05-15 02:45:00-06:00,2019-07-31 21:00:00-07:00,393,1100000.0
+230059,elecMeter-site,Main Meter_v1,Main Meter_v1,kWh,211.92,Electric Consumption,2020-07-31 21:45:00-06:00,2019-07-31 21:00:00-07:00,393,1100000.0
+230433,meter-electric,,Utility Plant Elec Meter Plant Consumption,kWh,515097.04,Electric Consumption,2018-12-31 22:45:00-06:00,2017-12-31 22:00:00-07:00,394,725000.0
+268297,meter1-electric,,MSKCC Electric Meter 1 BAIC_BM_CONED_EMTR1,kWh,2635648.0,Electric Consumption,2018-12-31 23:05:00-06:00,2018-03-31 20:55:00-07:00,420,236000.0
+268299,meter2-electric,,MSKCC Electric Meter 2 BAIC_BM_CONED_EMTR2,kWh,2730434.0,Electric Consumption,2018-12-31 23:05:00-06:00,2018-03-31 20:55:00-07:00,420,236000.0
+280350,elecMeterLoad-site,M.E.R. Meter Electric kWh Total,,kWh,46,Electric Consumption,2020-11-30 22:45:00-06:00,2019-12-31 22:00:00-07:00,423,119710.0
+283601,Site-Sensor,480 W 42nd St - Signature Theatre Main KWh_Net,,kWh,1044883.88,Electric Consumption,2020-11-30 22:00:00-06:00,2017-12-02 13:00:00-07:00,426,80000.0
+306123,elecMeterLoad-site,333 Lenox Road Cellar Electric Meter Room Meter Electric kWh Total,,kWh,0,Electric Consumption,2020-12-31 22:45:00-06:00,2020-02-27 11:30:00-07:00,434,56090.0
+309969,site-Sensor,Total Electric Consumption value,,kWh,7999.15,Electric Consumption,2021-10-01 21:50:00-06:00,2020-10-01 21:05:00-07:00,440,268000.0
+310271,site-Sensor,225 E 149th St. Controller [Tekmar 284] Energy Usage,,kWh,0,Electric Consumption,2020-10-28 11:45:00-06:00,2020-04-30 21:00:00-07:00,441,551143.0
+320452,elecMeterLoad-150,Rye Terrace: 150 Building B Meter-Electric kWh,,kWh,20,Electric Consumption,2021-05-13 11:45:00-06:00,2020-12-31 22:00:00-07:00,442,205000.0
