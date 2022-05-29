@@ -75,7 +75,8 @@ def normalize(input: pandas.DataFrame, toFreq: str):
 def removeOutliers(input: pandas.DataFrame, maxIqrsFromMean: float):
   """
   This removes outliers based on the input maximum distance from mean in terms of Inter-Quartile Ranges.
-  The missing gaps are then filled via a time-interpolation
+  It also removes any values that are zero or smaller.
+  All removed values are set to NaN
   """
   
   history = input
@@ -85,9 +86,9 @@ def removeOutliers(input: pandas.DataFrame, maxIqrsFromMean: float):
     series = history[column]
     iqr = series.quantile(0.75) - series.quantile(0.25)
     median = series.median()
-    history[column] = series.map(lambda x: float("nan") if abs((x - median)/iqr) > maxIqrsFromMean else x)
+    history[column] = series.map(lambda x: float("nan") if x<=0 or abs((x - median)/iqr) > maxIqrsFromMean else x)
 
-  return history.interpolate("time")
+  return history
 
 def clusterAnalyze(input: pandas.DataFrame):
   """
