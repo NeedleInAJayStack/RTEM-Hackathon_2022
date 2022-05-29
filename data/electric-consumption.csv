@@ -19,7 +19,6 @@ id,equipment_name,name,description,units,value,type,last_updated,first_updated,b
 198950,elecMeter1,,Meter Data Elec Meter Electric Meter 1,kWh,128.01,Electric Consumption,2019-12-31 22:45:00-06:00,2018-12-14 22:00:00-07:00,146,281755.0
 198951,elecMeter2,,Meter Data Elec Meter Electric Meter 2,kWh,204.01,Electric Consumption,2019-12-31 22:45:00-06:00,2018-12-14 22:00:00-07:00,146,281755.0
 199033,meter-site,,Main Power,kWh,0.29,Electric Consumption,2019-07-02 20:00:00-06:00,2018-07-03 08:00:00-07:00,147,198057.0
-199052,meter-electric,,Selfhelp 6469 Broadway Meters Electric Meter Dmarc,kWh,20865.09,Electric Consumption,2018-10-01 19:15:00-06:00,2018-09-30 21:00:00-07:00,148,789079.0
 199120,meter-site,,Main Power,kWh,2.86,Electric Consumption,2018-08-25 12:00:00-06:00,2018-08-22 07:00:00-07:00,151,198057.0
 199194,meter-site,,Main Power,kWh,0.0,Electric Consumption,2019-08-26 20:00:00-06:00,2018-08-27 13:00:00-07:00,155,144000.0
 199219,Site-Sensor,,Main Power,kWh,17286.0,Electric Consumption,2019-10-02 07:00:00-06:00,2017-12-05 15:00:00-07:00,157,56000.0
@@ -88,7 +87,5 @@ id,equipment_name,name,description,units,value,type,last_updated,first_updated,b
 268299,meter2-electric,,MSKCC Electric Meter 2 BAIC_BM_CONED_EMTR2,kWh,2730434.0,Electric Consumption,2018-12-31 23:05:00-06:00,2018-03-31 20:55:00-07:00,420,236000.0
 280350,elecMeterLoad-site,M.E.R. Meter Electric kWh Total,,kWh,46,Electric Consumption,2020-11-30 22:45:00-06:00,2019-12-31 22:00:00-07:00,423,119710.0
 283601,Site-Sensor,480 W 42nd St - Signature Theatre Main KWh_Net,,kWh,1044883.88,Electric Consumption,2020-11-30 22:00:00-06:00,2017-12-02 13:00:00-07:00,426,80000.0
-306123,elecMeterLoad-site,333 Lenox Road Cellar Electric Meter Room Meter Electric kWh Total,,kWh,0,Electric Consumption,2020-12-31 22:45:00-06:00,2020-02-27 11:30:00-07:00,434,56090.0
 309969,site-Sensor,Total Electric Consumption value,,kWh,7999.15,Electric Consumption,2021-10-01 21:50:00-06:00,2020-10-01 21:05:00-07:00,440,268000.0
-310271,site-Sensor,225 E 149th St. Controller [Tekmar 284] Energy Usage,,kWh,0,Electric Consumption,2020-10-28 11:45:00-06:00,2020-04-30 21:00:00-07:00,441,551143.0
 320452,elecMeterLoad-150,Rye Terrace: 150 Building B Meter-Electric kWh,,kWh,20,Electric Consumption,2021-05-13 11:45:00-06:00,2020-12-31 22:00:00-07:00,442,205000.0
