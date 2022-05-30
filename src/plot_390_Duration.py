@@ -30,8 +30,8 @@ clusterHistory = clusterHistory.shift(periods=-4, freq="h")
 
 # PLOT
 
-fig = clusterHistory.plot(figsize=(15,8), fontsize = 12)
-fig.set_ylabel('Energy (kWh)',fontdict={'fontsize':15})
+fig = clusterHistory.plot(figsize=(15,8), fontsize = 12, ylim=[0,25])
+fig.set_ylabel('Electric Consumption (kWh)',fontdict={'fontsize':15})
 fig.set_xlabel('Time',fontdict={'fontsize':15})
 plt.show()
 
