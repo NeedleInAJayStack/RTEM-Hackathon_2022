@@ -5,15 +5,15 @@ from buildingPoints import pointsForBuilding
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 
-pointIds = pointsForBuilding(420)
+pointIds = pointsForBuilding(390)
 
 # QUERY
-history = readHistory(pointIds)
+# history = readHistory(pointIds)
 
 # QUERY (BY SPECIFIC START/END)
-# start = datetime.fromisoformat("2018-10-01T00:00:00+00:00")
-# end = start + timedelta(days=30)
-# history = readHistory(pointIds, start, end)
+start = datetime.fromisoformat("2019-07-01T00:00:00+00:00")
+end = start + timedelta(days=7)
+history = readHistory(pointIds, start, end)
 
 # CLEAN
 history = normalize(history, toFreq="15min")

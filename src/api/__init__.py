@@ -29,8 +29,6 @@ def readHistory(pointIDs, start=None, end=None):
     start = datetime.fromtimestamp(points_df["first_updated"].agg('min') / 1000, tz=timezone.utc) # provided timestamp is in milliseconds
   if end == None:
     end = datetime.fromtimestamp(points_df["last_updated"].agg('max') / 1000, tz=timezone.utc)
-  # start = datetime.fromisoformat("2019-11-02T00:00:00+00:00")
-  # end = start + timedelta(days=2)
 
   timeseries_query = TimeseriesQuery(point_ids = selection['points'], start = start, end = end)
   history = points_df_from_streaming_timeseries(api.stream_point_timeseries(timeseries_query))
