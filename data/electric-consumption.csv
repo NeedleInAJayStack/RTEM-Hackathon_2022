@@ -3,7 +3,6 @@ id,equipment_name,name,description,units,value,type,last_updated,first_updated,b
 358161,elecMeter-6132839,6132839 (kW),,,0.0,Electric Consumption,2020-10-28 09:30:00-06:00,2020-06-19 21:15:00-07:00,100,153750.0
 193812,Site-Sensor,,Main Power,kWh,17818.0,Electric Consumption,2019-10-02 07:00:00-06:00,2017-11-20 12:00:00-07:00,105,56000.0
 193895,Site-Sensor,,Whole Building (AcquiLite),kWh,11.0,Electric Consumption,2020-05-04 22:00:01-06:00,2019-10-31 21:00:00-07:00,108,
-194172,meter-electric,,Selfhelp K1 Meters Exhaust Electrical Meter,kWh,61290.0,Electric Consumption,2018-08-31 22:15:00-06:00,2018-08-31 21:00:00-07:00,110,789079.0
 194195,elecMeterLoad-site,Total Base Building Consumption_value,Total Base Building Consumption_value,,4665.15,Electric Consumption,2019-03-12 21:55:00-06:00,2017-09-11 21:00:00-07:00,112,210000.0
 197088,elecMeter-site,CurrentDemand_Building_value,CurrentDemand_Building_value,kWh,258.87,Electric Consumption,2018-05-31 21:45:00-06:00,2017-11-30 22:00:00-07:00,121,236067.0
 197125,Site-Sensor,,Main Power,kWh,12378.0,Electric Consumption,2019-10-02 07:00:00-06:00,2017-11-28 10:00:00-07:00,122,56000.0
