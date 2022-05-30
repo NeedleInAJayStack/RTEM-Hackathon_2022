@@ -3,7 +3,7 @@ from api import readHistory
 from energy import normalize, removeOutliers, clusterAnalyze
 from buildingPoints import buildingIds, pointsForBuilding
 
-def processBuilding(buildingId: int):
+def computeBuildingKPIs(buildingId: int):
   # QUERY
   pointIds = pointsForBuilding(buildingId)
   history = readHistory(pointIds)
@@ -42,7 +42,7 @@ for buildingId in buildingIds:
   # Record progress
   print(f"{index/buildingIds.size*100}% - Building: {buildingId}")
 
-  kpiRow = processBuilding(buildingId)
+  kpiRow = computeBuildingKPIs(buildingId)
   kpiRows.append(kpiRow)
   index = index + 1
 
