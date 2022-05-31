@@ -8,9 +8,10 @@ Included are some convenience methods for accessing API data, as well as sophist
 
 ## Getting Started
 
-1. Clone this repo: `git clone <address_of_this_repo>`
+1. Clone this repo: `git clone https://github.com/NeedleInAJayStack/RTEM-Hackathon_2022` and enter the directory: `cd RTEM-Hackathon_2022`
 2. Install python dependencies: `pip install -r requirements.txt`
 3. The API key to use is detected from the `API_KEY` environment variable. Either set this variable or add a `.env` file to the root directory and set the variable there.
+4. Run a script: `python3 ./src/plot_275v393.py`
 
 ## Datasets
 
