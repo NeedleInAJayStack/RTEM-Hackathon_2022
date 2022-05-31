@@ -1,10 +1,9 @@
-import pandas
+# Generates 188v165_Turndown.png
+
 from onboard.client.models import PointSelector
 from api import api, readHistory
-from buildingPoints import pointsForBuilding
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
 
 query = PointSelector()
 query.point_ids = [200632, 202744] 

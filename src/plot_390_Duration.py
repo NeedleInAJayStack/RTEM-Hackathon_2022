@@ -1,3 +1,5 @@
+# Generates 390_Duration.png
+
 import pandas
 from api import readHistory
 from energy import normalize, removeOutliers, clusterAnalyze

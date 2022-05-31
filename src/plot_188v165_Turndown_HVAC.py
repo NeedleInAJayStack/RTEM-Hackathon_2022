@@ -1,7 +1,8 @@
+# Generates 188v165_Turndown_HVAC.png
+
 import pandas
 from onboard.client.models import PointSelector
 from api import api, readHistory
-from buildingPoints import pointsForBuilding
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 

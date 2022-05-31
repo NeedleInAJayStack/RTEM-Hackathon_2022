@@ -3,10 +3,17 @@ from api import readHistory
 from energy import normalize, removeOutliers, clusterAnalyze
 from buildingPoints import buildingIds, pointsForBuilding
 
-def computeBuildingKPIs(buildingId: int):
+def computeBuildingKPIs(buildingId: int, start=None, end=None):
+  """
+  For a specified building and time frame, this queries and cleans data, computes KPI values, 
+  aggregates them, and returns an object containing the aggregated values.
+
+  If start or end are not provided, it is extracted from the relevant points.
+  """
+
   # QUERY
   pointIds = pointsForBuilding(buildingId)
-  history = readHistory(pointIds)
+  history = readHistory(pointIds, start=start, end=end)
 
   if history.size == 0:
     return {

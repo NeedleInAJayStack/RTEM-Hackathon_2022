@@ -1,7 +1,8 @@
+# Generates 275v393_Turndown.png
+
 import pandas
-from onboard.client.models import PointSelector
-from energy import normalize, removeOutliers, clusterAnalyze
-from api import api, readHistory
+from energy import normalize, removeOutliers
+from api import readHistory
 from buildingPoints import pointsForBuilding
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
